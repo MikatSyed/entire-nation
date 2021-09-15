@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 5px 10px 20px 10px rgb(175, 173, 173) !important;
+  transition: all 0.7s linear;
+  
+  height: 400px;
+}
+
+.card-body {
+  padding: 2rem 0 !important;
+}
+
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+.overflow img{
+    width: 100%;
+    height: cover;
+}
+
+.card-top {
+  transform: perspective(1000px);
+  transform-style: preserve-3d;
+  transition: all 0.1s ease-in-out;
+
+  position: relative;
+}
+
+.card-top:hover {
+ transform: scale(1.1);
+ cursor: pointer;
+ background-image: linear-gradient(135deg,#393ceb 10%,#e43466 100%);
+}
+
+h4  {
+  color: orangered !important;
+}
